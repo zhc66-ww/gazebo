@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/zhc/third_party/catkin_ws/install/setup.sh

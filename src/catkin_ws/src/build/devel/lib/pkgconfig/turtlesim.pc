@@ -1,0 +1,8 @@
+prefix=/home/zhc/third_party/catkin_ws/src/build/devel
+
+Name: turtlesim
+Description: Description of turtlesim
+Version: 0.10.3
+Cflags: -I/home/zhc/third_party/catkin_ws/src/build/devel/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs message_runtime std_msgs std_srvs

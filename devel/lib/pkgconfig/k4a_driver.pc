@@ -1,0 +1,8 @@
+prefix=/home/zhc/robot_ws/devel
+
+Name: k4a_driver
+Description: Description of k4a_driver
+Version: 0.9.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

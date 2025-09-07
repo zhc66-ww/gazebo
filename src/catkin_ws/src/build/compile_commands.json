@@ -1,0 +1,267 @@
+[
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/gtest/googlemock",
+  "command": "/usr/bin/g++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -isystem /usr/src/googletest/googlemock/include -isystem /usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -g -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/googletest/googlemock/src/gmock_main.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/gtest/googlemock",
+  "command": "/usr/bin/g++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -g -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/gtest/googletest",
+  "command": "/usr/bin/g++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -g -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -DGTEST_HAS_PTHREAD=1 -std=c++11 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/googletest/googletest/src/gtest_main.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/gtest/googletest",
+  "command": "/usr/bin/g++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/ros_tutorials/roscpp_tutorials",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"roscpp_tutorials\\\" -I/home/zhc/third_party/catkin_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/time_api_sleep.dir/time_api/sleep/sleep.cpp.o -c /home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/time_api/sleep/sleep.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/time_api/sleep/sleep.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/ros_tutorials/roscpp_tutorials",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_THREAD_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"roscpp_tutorials\\\" -I/home/zhc/third_party/catkin_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/parameters.dir/parameters/parameters.cpp.o -c /home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/parameters/parameters.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/parameters/parameters.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/ros_tutorials/roscpp_tutorials",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_THREAD_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"roscpp_tutorials\\\" -I/home/zhc/third_party/catkin_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/custom_callback_processing.dir/custom_callback_processing/custom_callback_processing.cpp.o -c /home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/custom_callback_processing/custom_callback_processing.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/custom_callback_processing/custom_callback_processing.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/ros_tutorials/roscpp_tutorials",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_THREAD_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"roscpp_tutorials\\\" -I/home/zhc/third_party/catkin_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/listener_unreliable.dir/listener_unreliable/listener_unreliable.cpp.o -c /home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/listener_unreliable/listener_unreliable.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/listener_unreliable/listener_unreliable.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/ros_tutorials/roscpp_tutorials",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_THREAD_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"roscpp_tutorials\\\" -I/home/zhc/third_party/catkin_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/listener_with_tracked_object.dir/listener_with_tracked_object/listener_with_tracked_object.cpp.o -c /home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/listener_with_tracked_object/listener_with_tracked_object.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/listener_with_tracked_object/listener_with_tracked_object.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/ros_tutorials/roscpp_tutorials",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_THREAD_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"roscpp_tutorials\\\" -I/home/zhc/third_party/catkin_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/listener_threaded_spin.dir/listener_threaded_spin/listener_threaded_spin.cpp.o -c /home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/listener_threaded_spin/listener_threaded_spin.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/listener_threaded_spin/listener_threaded_spin.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/ros_tutorials/roscpp_tutorials",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_THREAD_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"roscpp_tutorials\\\" -I/home/zhc/third_party/catkin_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/cached_parameters.dir/cached_parameters/cached_parameters.cpp.o -c /home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/cached_parameters/cached_parameters.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/cached_parameters/cached_parameters.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/ros_tutorials/roscpp_tutorials",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_THREAD_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"roscpp_tutorials\\\" -I/home/zhc/third_party/catkin_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/anonymous_listener.dir/anonymous_listener/anonymous_listener.cpp.o -c /home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/anonymous_listener/anonymous_listener.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/anonymous_listener/anonymous_listener.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/ros_tutorials/roscpp_tutorials",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_THREAD_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"roscpp_tutorials\\\" -I/home/zhc/third_party/catkin_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/listener_class.dir/listener_class/listener_class.cpp.o -c /home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/listener_class/listener_class.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/listener_class/listener_class.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/ros_tutorials/roscpp_tutorials",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_THREAD_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"roscpp_tutorials\\\" -I/home/zhc/third_party/catkin_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/add_two_ints_client.dir/add_two_ints_client/add_two_ints_client.cpp.o -c /home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/add_two_ints_client/add_two_ints_client.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/add_two_ints_client/add_two_ints_client.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/ros_tutorials/roscpp_tutorials",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_THREAD_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"roscpp_tutorials\\\" -I/home/zhc/third_party/catkin_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/babbler.dir/babbler/babbler.cpp.o -c /home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/babbler/babbler.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/babbler/babbler.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/ros_tutorials/roscpp_tutorials",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_THREAD_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"roscpp_tutorials\\\" -I/home/zhc/third_party/catkin_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/timers.dir/timers/timers.cpp.o -c /home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/timers/timers.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/timers/timers.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/ros_tutorials/roscpp_tutorials",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_THREAD_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"roscpp_tutorials\\\" -I/home/zhc/third_party/catkin_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/listener_with_userdata.dir/listener_with_userdata/listener_with_userdata.cpp.o -c /home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/listener_with_userdata/listener_with_userdata.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/listener_with_userdata/listener_with_userdata.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/ros_tutorials/roscpp_tutorials",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_THREAD_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"roscpp_tutorials\\\" -I/home/zhc/third_party/catkin_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/add_two_ints_server.dir/add_two_ints_server/add_two_ints_server.cpp.o -c /home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/add_two_ints_server/add_two_ints_server.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/add_two_ints_server/add_two_ints_server.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/ros_tutorials/roscpp_tutorials",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_THREAD_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"roscpp_tutorials\\\" -I/home/zhc/third_party/catkin_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/listener.dir/listener/listener.cpp.o -c /home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/listener/listener.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/listener/listener.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/ros_tutorials/roscpp_tutorials",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_THREAD_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"roscpp_tutorials\\\" -I/home/zhc/third_party/catkin_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/listener_multiple.dir/listener_multiple/listener_multiple.cpp.o -c /home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/listener_multiple/listener_multiple.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/listener_multiple/listener_multiple.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/ros_tutorials/roscpp_tutorials",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_THREAD_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"roscpp_tutorials\\\" -I/home/zhc/third_party/catkin_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/listener_async_spin.dir/listener_async_spin/listener_async_spin.cpp.o -c /home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/listener_async_spin/listener_async_spin.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/listener_async_spin/listener_async_spin.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/ros_tutorials/roscpp_tutorials",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_THREAD_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"roscpp_tutorials\\\" -I/home/zhc/third_party/catkin_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/add_two_ints_server_class.dir/add_two_ints_server_class/add_two_ints_server_class.cpp.o -c /home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/add_two_ints_server_class/add_two_ints_server_class.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/add_two_ints_server_class/add_two_ints_server_class.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/ros_tutorials/roscpp_tutorials",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_THREAD_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"roscpp_tutorials\\\" -I/home/zhc/third_party/catkin_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/talker.dir/talker/talker.cpp.o -c /home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/talker/talker.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/talker/talker.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/ros_tutorials/roscpp_tutorials",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_THREAD_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"roscpp_tutorials\\\" -I/home/zhc/third_party/catkin_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/notify_connect.dir/notify_connect/notify_connect.cpp.o -c /home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/notify_connect/notify_connect.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/notify_connect/notify_connect.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/ros_tutorials/roscpp_tutorials",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_THREAD_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"roscpp_tutorials\\\" -I/home/zhc/third_party/catkin_ws/src/build/devel/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/node_handle_namespaces.dir/node_handle_namespaces/node_handle_namespaces.cpp.o -c /home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/node_handle_namespaces/node_handle_namespaces.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/ros_tutorials/roscpp_tutorials/node_handle_namespaces/node_handle_namespaces.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/ros_tutorials/turtlesim",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"turtlesim\\\" -I/home/zhc/third_party/catkin_ws/src/build/devel/include -I/home/zhc/third_party/catkin_ws/src/ros_tutorials/turtlesim/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/mimic.dir/tutorials/mimic.cpp.o -c /home/zhc/third_party/catkin_ws/src/ros_tutorials/turtlesim/tutorials/mimic.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/ros_tutorials/turtlesim/tutorials/mimic.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/ros_tutorials/turtlesim",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_THREAD_DYN_LINK -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"turtlesim\\\" -I/home/zhc/third_party/catkin_ws/src/build/devel/include -I/home/zhc/third_party/catkin_ws/src/ros_tutorials/turtlesim/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o -c /home/zhc/third_party/catkin_ws/src/ros_tutorials/turtlesim/tutorials/draw_square.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/ros_tutorials/turtlesim/tutorials/draw_square.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/ros_tutorials/turtlesim",
+  "command": "/usr/bin/g++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"turtlesim\\\" -I/home/zhc/third_party/catkin_ws/src/build/devel/include -I/home/zhc/third_party/catkin_ws/src/ros_tutorials/turtlesim/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -o CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o -c /home/zhc/third_party/catkin_ws/src/ros_tutorials/turtlesim/tutorials/teleop_turtle_key.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/ros_tutorials/turtlesim/tutorials/teleop_turtle_key.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/ros_tutorials/turtlesim",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_THREAD_DYN_LINK -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"turtlesim\\\" -I/home/zhc/third_party/catkin_ws/src/build/devel/include -I/home/zhc/third_party/catkin_ws/src/ros_tutorials/turtlesim/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -o CMakeFiles/turtlesim_node.dir/src/turtlesim.cpp.o -c /home/zhc/third_party/catkin_ws/src/ros_tutorials/turtlesim/src/turtlesim.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/ros_tutorials/turtlesim/src/turtlesim.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/ros_tutorials/turtlesim",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_THREAD_DYN_LINK -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"turtlesim\\\" -I/home/zhc/third_party/catkin_ws/src/build/devel/include -I/home/zhc/third_party/catkin_ws/src/ros_tutorials/turtlesim/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -o CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o -c /home/zhc/third_party/catkin_ws/src/ros_tutorials/turtlesim/src/turtle.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/ros_tutorials/turtlesim/src/turtle.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/ros_tutorials/turtlesim",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_THREAD_DYN_LINK -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"turtlesim\\\" -I/home/zhc/third_party/catkin_ws/src/build/devel/include -I/home/zhc/third_party/catkin_ws/src/ros_tutorials/turtlesim/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -o CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o -c /home/zhc/third_party/catkin_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/ros_tutorials/turtlesim/src/turtle_frame.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/ros_tutorials/turtlesim",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_THREAD_DYN_LINK -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"turtlesim\\\" -I/home/zhc/third_party/catkin_ws/src/build/devel/include -I/home/zhc/third_party/catkin_ws/src/ros_tutorials/turtlesim/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -o CMakeFiles/turtlesim_node.dir/include/turtlesim/moc_turtle_frame.cpp.o -c /home/zhc/third_party/catkin_ws/src/build/ros_tutorials/turtlesim/include/turtlesim/moc_turtle_frame.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/build/ros_tutorials/turtlesim/include/turtlesim/moc_turtle_frame.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/g++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/zhc/third_party/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4 -I/usr/local/include/opencv4    -g   -o CMakeFiles/teleop_js_node.dir/src/teleop_js_node.cpp.o -c /home/zhc/third_party/catkin_ws/src/wpr_simulation/src/teleop_js_node.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/wpr_simulation/src/teleop_js_node.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/g++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/zhc/third_party/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4 -I/usr/local/include/opencv4    -g   -o CMakeFiles/demo_lidar_behavior.dir/src/demo_lidar_behavior.cpp.o -c /home/zhc/third_party/catkin_ws/src/wpr_simulation/src/demo_lidar_behavior.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/wpr_simulation/src/demo_lidar_behavior.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/g++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/zhc/third_party/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4 -I/usr/local/include/opencv4    -g   -o CMakeFiles/demo_map_pub.dir/src/demo_map_pub.cpp.o -c /home/zhc/third_party/catkin_ws/src/wpr_simulation/src/demo_map_pub.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/wpr_simulation/src/demo_map_pub.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/g++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/zhc/third_party/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4 -I/usr/local/include/opencv4    -g   -o CMakeFiles/lidar_filter.dir/src/lidar_filter.cpp.o -c /home/zhc/third_party/catkin_ws/src/wpr_simulation/src/lidar_filter.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/wpr_simulation/src/lidar_filter.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/g++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/zhc/third_party/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4 -I/usr/local/include/opencv4    -g   -o CMakeFiles/wpr1_sim.dir/src/wpr1_sim.cpp.o -c /home/zhc/third_party/catkin_ws/src/wpr_simulation/src/wpr1_sim.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/wpr_simulation/src/wpr1_sim.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/g++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/zhc/third_party/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4 -I/usr/local/include/opencv4    -g   -o CMakeFiles/keyboard_vel_ctrl.dir/src/keyboard_vel_ctrl.cpp.o -c /home/zhc/third_party/catkin_ws/src/wpr_simulation/src/keyboard_vel_ctrl.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/wpr_simulation/src/keyboard_vel_ctrl.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/g++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/zhc/third_party/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4 -I/usr/local/include/opencv4    -g   -o CMakeFiles/demo_lidar_data.dir/src/demo_lidar_data.cpp.o -c /home/zhc/third_party/catkin_ws/src/wpr_simulation/src/demo_lidar_data.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/wpr_simulation/src/demo_lidar_data.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/g++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/zhc/third_party/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4 -isystem /usr/local/include/opencv4    -g   -o CMakeFiles/demo_imu_data.dir/src/demo_imu_data.cpp.o -c /home/zhc/third_party/catkin_ws/src/wpr_simulation/src/demo_imu_data.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/wpr_simulation/src/demo_imu_data.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/g++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/zhc/third_party/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4 -isystem /usr/local/include/opencv4    -g   -o CMakeFiles/demo_cv_hsv.dir/src/demo_cv_hsv.cpp.o -c /home/zhc/third_party/catkin_ws/src/wpr_simulation/src/demo_cv_hsv.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/wpr_simulation/src/demo_cv_hsv.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/g++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/zhc/third_party/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4 -isystem /usr/local/include/opencv4    -g   -o CMakeFiles/demo_cv_follow.dir/src/demo_cv_follow.cpp.o -c /home/zhc/third_party/catkin_ws/src/wpr_simulation/src/demo_cv_follow.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/wpr_simulation/src/demo_cv_follow.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_IOSTREAMS_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_REGEX_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_TEST_DYN_LINK -DBOOST_THREAD_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -Dwpr_plugin_EXPORTS -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/sdformat-9.10 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/home/zhc/third_party/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4 -I/usr/local/include/opencv4 -isystem /usr/include/simbody -isystem /usr/include/ignition/math6 -isystem /usr/include/ignition/transport8 -isystem /usr/include/ignition/msgs5 -isystem /usr/include/ignition/common3 -isystem /usr/include/ignition/fuel_tools4 -isystem /opt/ros/noetic/include -isystem /usr/include/eigen3 -isystem /usr/include/sdformat-9.10/sdf/.. -isystem /usr/include/ignition/cmake2 -isystem /usr/include/uuid    -g -fPIC   -I/usr/include/uuid -std=gnu++17 -o CMakeFiles/wpr_plugin.dir/src/wpr_plugin.cpp.o -c /home/zhc/third_party/catkin_ws/src/wpr_simulation/src/wpr_plugin.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/wpr_simulation/src/wpr_plugin.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/g++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/zhc/third_party/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4 -I/usr/local/include/opencv4    -g   -o CMakeFiles/wpb_home_sim.dir/src/wpb_home_sim.cpp.o -c /home/zhc/third_party/catkin_ws/src/wpr_simulation/src/wpb_home_sim.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/wpr_simulation/src/wpb_home_sim.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/g++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/zhc/third_party/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4 -I/usr/local/include/opencv4    -g   -o CMakeFiles/demo_simple_goal.dir/src/demo_simple_goal.cpp.o -c /home/zhc/third_party/catkin_ws/src/wpr_simulation/src/demo_simple_goal.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/wpr_simulation/src/demo_simple_goal.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/g++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/zhc/third_party/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4 -I/usr/local/include/opencv4    -g   -o CMakeFiles/ball_random_move.dir/src/ball_random_move.cpp.o -c /home/zhc/third_party/catkin_ws/src/wpr_simulation/src/ball_random_move.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/wpr_simulation/src/ball_random_move.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/g++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/zhc/third_party/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4 -I/usr/local/include/opencv4    -g   -o CMakeFiles/demo_map_tool.dir/src/demo_map_tool.cpp.o -c /home/zhc/third_party/catkin_ws/src/wpr_simulation/src/demo_map_tool.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/wpr_simulation/src/demo_map_tool.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/g++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/zhc/third_party/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4 -I/usr/local/include/opencv4    -g   -o CMakeFiles/demo_vel_ctrl.dir/src/demo_vel_ctrl.cpp.o -c /home/zhc/third_party/catkin_ws/src/wpr_simulation/src/demo_vel_ctrl.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/wpr_simulation/src/demo_vel_ctrl.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/g++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/zhc/third_party/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4 -I/usr/local/include/opencv4    -g   -o CMakeFiles/demo_waypoint_navi.dir/src/demo_waypoint_navi.cpp.o -c /home/zhc/third_party/catkin_ws/src/wpr_simulation/src/demo_waypoint_navi.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/wpr_simulation/src/demo_waypoint_navi.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/g++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/zhc/third_party/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4 -I/usr/local/include/opencv4    -g   -o CMakeFiles/demo_sr_navigation.dir/src/demo_sr_navigation.cpp.o -c /home/zhc/third_party/catkin_ws/src/wpr_simulation/src/demo_sr_navigation.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/wpr_simulation/src/demo_sr_navigation.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/g++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/zhc/third_party/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4 -isystem /usr/local/include/opencv4    -g   -o CMakeFiles/demo_imu_behavior.dir/src/demo_imu_behavior.cpp.o -c /home/zhc/third_party/catkin_ws/src/wpr_simulation/src/demo_imu_behavior.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/wpr_simulation/src/demo_imu_behavior.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/g++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/zhc/third_party/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4 -isystem /usr/local/include/opencv4    -g   -o CMakeFiles/demo_cv_image.dir/src/demo_cv_image.cpp.o -c /home/zhc/third_party/catkin_ws/src/wpr_simulation/src/demo_cv_image.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/wpr_simulation/src/demo_cv_image.cpp"
+},
+{
+  "directory": "/home/zhc/third_party/catkin_ws/src/build/wpr_simulation",
+  "command": "/usr/bin/g++  -DBOOST_TEST_DYN_LINK -DLIBBULLET_VERSION=2.88 -DLIBBULLET_VERSION_GT_282 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"wpr_simulation\\\" -I/usr/include/gazebo-11 -I/usr/include/bullet -I/usr/include/simbody -I/usr/include/sdformat-9.10 -I/usr/include/ignition/math6 -I/usr/include/OGRE -I/usr/include/OGRE/Terrain -I/usr/include/OGRE/Paging -I/usr/include/ignition/transport8 -I/usr/include/ignition/msgs5 -I/usr/include/ignition/common3 -I/usr/include/ignition/fuel_tools4 -I/home/zhc/third_party/catkin_ws/src/wpr_simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/opencv4 -isystem /usr/local/include/opencv4    -g   -o CMakeFiles/demo_cv_face_detect.dir/src/demo_cv_face_detect.cpp.o -c /home/zhc/third_party/catkin_ws/src/wpr_simulation/src/demo_cv_face_detect.cpp",
+  "file": "/home/zhc/third_party/catkin_ws/src/wpr_simulation/src/demo_cv_face_detect.cpp"
+}
+]

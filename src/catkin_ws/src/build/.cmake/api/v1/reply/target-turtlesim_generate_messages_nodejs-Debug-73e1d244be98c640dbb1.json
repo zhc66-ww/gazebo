@@ -1,0 +1,239 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include",
+			"generate_messages",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"build/ros_tutorials/turtlesim/cmake/turtlesim-genmsg.cmake",
+			"/opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake",
+			"ros_tutorials/turtlesim/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 307,
+				"parent" : 1
+			},
+			{
+				"file" : 0,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 355,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 528,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 525,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 366,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 362,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 370,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 374,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 531,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 368,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 372,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 364,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "std_msgs_generate_messages_nodejs::@fe3b7adfc8c7f23b9e15"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "geometry_msgs_generate_messages_nodejs::@9239666815c5c96c2a77"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "_turtlesim_generate_messages_check_deps_Kill::@9239666815c5c96c2a77"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "_turtlesim_generate_messages_check_deps_Color::@9239666815c5c96c2a77"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "_turtlesim_generate_messages_check_deps_Spawn::@9239666815c5c96c2a77"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "_turtlesim_generate_messages_check_deps_TeleportRelative::@9239666815c5c96c2a77"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "std_srvs_generate_messages_nodejs::@9239666815c5c96c2a77"
+		},
+		{
+			"backtrace" : 12,
+			"id" : "_turtlesim_generate_messages_check_deps_SetPen::@9239666815c5c96c2a77"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "_turtlesim_generate_messages_check_deps_TeleportAbsolute::@9239666815c5c96c2a77"
+		},
+		{
+			"backtrace" : 14,
+			"id" : "_turtlesim_generate_messages_check_deps_Pose::@9239666815c5c96c2a77"
+		}
+	],
+	"id" : "turtlesim_generate_messages_nodejs::@9239666815c5c96c2a77",
+	"name" : "turtlesim_generate_messages_nodejs",
+	"paths" : 
+	{
+		"build" : "ros_tutorials/turtlesim",
+		"source" : "ros_tutorials/turtlesim"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/ros_tutorials/turtlesim/CMakeFiles/turtlesim_generate_messages_nodejs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/ros_tutorials/turtlesim/CMakeFiles/turtlesim_generate_messages_nodejs.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/share/gennodejs/ros/turtlesim/msg/Color.js.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/share/gennodejs/ros/turtlesim/msg/Pose.js.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/share/gennodejs/ros/turtlesim/srv/Kill.js.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/share/gennodejs/ros/turtlesim/srv/SetPen.js.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/share/gennodejs/ros/turtlesim/srv/Spawn.js.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/share/gennodejs/ros/turtlesim/srv/TeleportAbsolute.js.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/share/gennodejs/ros/turtlesim/srv/TeleportRelative.js.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}
