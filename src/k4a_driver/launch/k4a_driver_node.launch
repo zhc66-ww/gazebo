@@ -1,0 +1,12 @@
+<launch>
+  <!-- 启动 k4a_driver 节点 -->
+  <node pkg="k4a_driver" type="k4a_driver_node" name="k4a_driver_node" output="screen">
+    <param name="color_enabled" value="true"/>
+    <param name="depth_enabled" value="true"/>
+    <param name="depth_mode" value="2"/> <!-- 选择深度模式，2表示中等深度 -->
+    <param name="fps" value="30"/> <!-- 帧率 -->
+    <param name="imu_enabled" value="true"/> <!-- 启用IMU -->
+    <param name="point_cloud" value="true"/> <!-- 生成点云 -->
+  </node>
+</launch>
+

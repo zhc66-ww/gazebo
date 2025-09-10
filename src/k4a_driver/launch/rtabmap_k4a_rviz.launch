@@ -1,0 +1,30 @@
+<launch>
+  <!-- K4A Camera Driver -->
+  <include file="$(find k4a_driver)/launch/driver.launch"/>
+
+  <!-- RTAB-Map Node -->
+  <node name="rtabmap" pkg="rtabmap_ros" type="rtabmap" output="screen">
+    <param name="frame_id" value="base_link"/>
+    <param name="odometry/queue_size" value="10"/>
+    <param name="RGBD/ProximityByLaser" value="false"/>
+    <param name="RGBD/AngularUpdate" value="0.1"/>
+    <param name="RGBD/LinearUpdate" value="0.1"/>
+    <param name="depth_culling" value="false"/>
+  </node>
+
+  <!-- Odometry Configuration -->
+  <node name="rtabmap_odometry" pkg="rtabmap_ros" type="odometry" output="screen">
+    <param name="frame_id" value="odom"/>
+    <param name="odom_frame_id" value="odom"/>
+    <param name="scan_topic" value="scan"/>
+    <param name="wait_for_transform" value="true"/>
+  </node>
+
+  <!-- RViz -->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find rtabmap_ros)/launch/rtabmap.rviz" output="screen"/>
+
+  <!-- TF Tree (Optional, for visualizing transform) -->
+  <!-- Use $(anon) to make the name unique -->
+  <node name="$(anon robot_state_publisher)" pkg="robot_state_publisher" type="robot_state_publisher" />
+</launch>
+
