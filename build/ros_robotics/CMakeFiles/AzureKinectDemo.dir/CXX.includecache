@@ -94,10 +94,6 @@ realsense.hpp
 myinfer.hpp
 /home/zhc/robot_ws/src/ros_robotics/src/myinfer.hpp
 
-/home/zhc/robot_ws/src/ros_robotics/src/yolo.cpp
-yolo.hpp
-/home/zhc/robot_ws/src/ros_robotics/src/yolo.hpp
-
 /opt/ros/noetic/include/librealsense2/h/rs_config.h
 rs_types.h
 /opt/ros/noetic/include/librealsense2/h/rs_types.h
